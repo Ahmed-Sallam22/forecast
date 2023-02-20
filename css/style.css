@@ -1,0 +1,101 @@
+**{
+    padding: 0;
+    margin: 0;
+}
+.blue-button,.custom{
+  color: #009ad8;
+}
+.blue-button{
+  background: #009ad8;
+  padding: 10px 20px;
+  color: white;
+}
+.search-in  input[type="submit"], .search-in input[type="button"] {
+    position: absolute; 
+    right: .2%;
+    top: 4%;
+    padding: 17px 35px; 
+}
+
+
+.header{
+    background-image: url(/img/pexels-krivec-ales-547114.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+
+}
+.CLERA{
+  clear: both;
+}
+
+.card-logo{
+  font-size: 16px;
+  color:  chartreuse;
+}
+
+
+
+footer ,body, nav {
+  background: #19283f !important; 
+}
+.search-in input[type="text"]{
+  background-color:rgba(0, 0, 0, .5);
+  padding: 20px 100px 20px 20px;
+  outline: none;
+  width: 100%;
+  color: white;
+}
+
+footer .subscribe-btn input[type="text"]{
+  padding: 20px 100px 20px 20px;
+  outline: none;
+  background: #293244;
+  width: 100%;
+  color: white;
+}
+footer .subscribe-btn input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+
+.subscribe-btn input[type="text"]{
+  border: none ;
+}
+
+.subscribe-btn input[type="text"]:focus{
+  outline: none;
+}
+.blue-button{
+  border-color: transparent;
+}
+
+
+.border-socila{
+  margin-top: 12px;
+  border-radius: 50%;
+  padding: 5px 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.border-socila:hover{
+  background-color: #0078ff;
+  transition: all 250ms ease-in ;
+  -webkit-transition: all 250ms ease-in ;
+  -moz-transition: all 250ms ease-in ;
+  -ms-transition: all 250ms ease-in ;
+  -o-transition: all 250ms ease-in ;
+}
+.border-socila:hover a{
+  color: white !important;
+  transition: all 250ms ease-in ;
+  -webkit-transition: all 250ms ease-in ;
+  -moz-transition: all 250ms ease-in ;
+  -ms-transition: all 250ms ease-in ;
+  -o-transition: all 250ms ease-in ;
+}
