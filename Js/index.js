@@ -16,7 +16,7 @@ const monthNames = ["January", "February", "March", "April", "May", "June", "Jul
 function ShowCountry(country, MyHttps) {
     if (null != MyHttps) {
         var e = new Date(MyHttps.last_updated.replace(" ", "t"));
-let main=`<div class=" main-card card p-3 col-lg-4 bg-transparent">
+let main=`<div class=" main-card card p-3 col-lg-4">
 <div class="card-title ">
 <p class="text-danger float-start ">${days[e.getDay()]}</p>
 <p class="text-danger float-end" >${e.getDate() + monthNames[e.getMonth()]}</p>
@@ -40,7 +40,7 @@ let main=`<div class=" main-card card p-3 col-lg-4 bg-transparent">
 function ShowExpectedForecast(country) {
     let MyHttps = "";
     for (let e = 1; e < country.length; e++)
-    MyHttps +=` <div class="card col-lg-4 bg-transparent">
+    MyHttps +=` <div class="card col-lg-4">
 <div class="card-body text-center">
 <div class="card-title pb-5">
                     <p class="text-danger ">${days[new Date(country[e].date.replace(" ", "t")).getDay()]}</p>
